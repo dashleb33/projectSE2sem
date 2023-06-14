@@ -13,7 +13,7 @@ def test_read_main():
     assert response.json() == {"message": "summarization app. Use method /summarization"}
 
 
-def test_translate_get():
+def test_summarization_get():
     '''
     Функция тестирует доступ к проекту в сети и получение ответа со страницы /summarization
     '''
