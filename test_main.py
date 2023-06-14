@@ -29,3 +29,4 @@ def test_handle_form():
     response = client.post("/summarization", data={"assignment": "Sample text"})
     assert response.status_code == 200
     assert "text/html" in response.headers["content-type"]
+    
