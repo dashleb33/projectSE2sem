@@ -42,4 +42,3 @@ Rosemary Fell was not exactly beautiful. She was young, brilliant, extremely mod
 One winter afternoon she went into a small shop to look at a little box which the shopman had been keeping for her. He had shown it to nobody as yet so that she might be the first to see it.'''}) 
     assert response.status_code == 200
     assert '''Katherine Mansfield was born in New Zealand in 1888 and died in 1923. She is the author of a number of excellent short stories which deal with human nature and psychology.''' in response.text    
-    
