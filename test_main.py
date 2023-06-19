@@ -52,9 +52,8 @@ def test_predict_main():
     she would go to Paris as you and I would go to Bond Street.
     One winter afternoon she went into a small shop to look at a little box which the shopman had been keeping for her.
     He had shown it to nobody as yet so that she might be the first to see it.'''
-    
-    response = client.post('/summarization/', data={'assignment': respose_text}) 
+    response = client.post('/summarization/', data={'assignment': respose_text})
 
     assert response.status_code == 200
-    
-    assert 'Katherine Mansfield was born in New Zealand in 1888 and died in 1923' in response.text    
+
+    assert 'Katherine Mansfield was born in New Zealand in 1888 and died in 1923' in response.text
