@@ -32,4 +32,3 @@ def handle_form(request: Request, assignment: str = Form(...)):
     text = summarizer(assignment, max_length=130, min_length=30, do_sample=False)
     return templates.TemplateResponse("home.html", {'request': request,
                                                     'assignment': assignment, 'result': text[0]['summary_text']})
-    
