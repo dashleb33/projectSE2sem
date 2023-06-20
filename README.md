@@ -21,7 +21,7 @@
 
    
 ## Ссылка на модель на Hugging Face:
-![https://huggingface.co/facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn)
+!([https://huggingface.co/facebook/bart-large-cnn](https://huggingface.co/facebook/bart-large-cnn))
 
 
 ## Пример работы приложения:
