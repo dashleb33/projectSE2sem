@@ -19,6 +19,10 @@
 2. Суммаризация текста с помощью модели API Pipeline Hugging Face - этот API позволяет пользоваться моделями для автоматического реферирования текстов;
 3. Вывод полученных результатов.
 
+   
+## Ссылка на модель на Hugging Face:
+![Ссылка на модель на Hugging Face](https://huggingface.co/facebook/bart-large-cnn)
+
 
 ## Пример работы приложения:
 ![Пример работы приложения](https://github.com/ctakan4ik/projectSE2sem/blob/main/2023-06-19-16-30-35.gif)
