@@ -5,4 +5,4 @@ torch
 sentencepiece
 jinja2
 python-multipart
-click==8.0.4
+
